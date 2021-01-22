@@ -1,5 +1,5 @@
 ## Overview
-That's the simpliest API building based on the wifi script, I modify the file "index.js" to "wifi_module.js" to make the arrangement looks better.
+That's the simpliest API building based on the wifi script "node-wifi"
 
 after successfully start the server, go to "localhost:3000/search" using browser or Postman, you will see a list of wifi options in JSON format
 
