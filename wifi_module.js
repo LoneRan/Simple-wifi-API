@@ -54,11 +54,13 @@ exports.conenect_to_wifi = function(req,res){
     if (error) {
       console.log("failed to connect with wifi");
       console.log(error);
+      res.json({status: 'fail',message:'Failed to connect with wifi'});
     }
     else { 
     console.log("Wifi connected");
     console.log('Connected');
+    res.json({status: 'success',message: "You are now connected to Internet!"})
     }
   });
-  res.json({message: 'password receive successfully'});
+
 }
