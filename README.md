@@ -6,6 +6,7 @@ after successfully start the server, go to "localhost:3000/search" using browser
 # Requirement
 package: nodemon, express, check-internet-connected
 commands: 
+        `npm init`
         `npm install --save-dev nodemon`
         `npm install express --save`
         `npm install check-internet-connected`
